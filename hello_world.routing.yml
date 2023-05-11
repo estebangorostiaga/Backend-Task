@@ -1,0 +1,7 @@
+hello.content:
+  path: '/glossary'
+  defaults:
+    _controller: '\Drupal\hello_world\Controller\HelloController::content'
+    _title: 'Glossary Tooltip'
+  requirements:
+    _permission: 'access content'
